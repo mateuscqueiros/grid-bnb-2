@@ -8,6 +8,13 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 300px 300px;
+  grid-template-columns: minmax(50%, auto) 9fr;
+  /*grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 200px);
+  gap: 25px;*/
+}
+
+.item {
+  background: sandybrown;
+  border: 2px solid black;
 }
